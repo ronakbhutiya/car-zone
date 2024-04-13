@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+.section-hero {
+  background-image: url(car.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+.any-details {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 2rem;
+  margin: 0 9.6rem;
+}
+.any-details p,
+a {
+  font-size: 2rem;
+  color: #c00113;
+  font-weight: 500;
+}
+.any-details a {
+  text-decoration: none;
+}
+.header {
+  height: 8rem;
+  background-color: rgba(27, 28, 30, 0.77);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 9.6rem;
+}
+.logo {
+  width: 8rem;
+  height: 8rem;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: #c00113;
+}
+.btn {
+  background-color: #c00113;
+  padding: 1rem 1.5rem;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #9e1725;
+}
+.booking-header {
+  color: #c00113;
+  margin-bottom: 2rem;
+}
+.booking-fill {
+  max-width: 50rem;
+  margin-right: 9.6rem;
+  background-color: rgba(234, 237, 242, 0.85);
+  padding: 3rem 1.5rem;
+  float: right;
+}
+.booking-fill p {
+  font-family: "Dancing Script", cursive;
+  color: black;
+  font-weight: 700;
+}
+.booking-fill p,
+h1 {
+  font-size: 4rem;
+}
+.btn-book {
+  background-color: #c00113;
+  padding: 1.5rem 4rem;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 2rem;
+}
+.btn-book:hover {
+  background-color: #9e1725;
+}
+input {
+  padding: 1.8rem 1rem;
+  width: 100%;
+  margin-bottom: 1.8rem;
+  outline: none;
+  border: none;
+}
+.input-msg {
+  padding: 2rem 1rem;
+}
+.Contact {
+  margin-bottom: 3rem;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+.social-media {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.social-media:hover {
+  transform: translateY(-20%);
+}
+.social-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+@media (max-width: 1300px) {
+  .nav-list {
+    display: none;
+  }
+  html{
+    font-size: 60.5%;
+  }
+}
