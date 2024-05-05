@@ -78,7 +78,7 @@ a {
   margin-right: 9.6rem;
   background-color: rgba(234, 237, 242, 0.85);
   padding: 3rem 1.5rem;
-  float: right;
+  margin-left: auto;
 }
 .booking-fill p {
   font-family: "Dancing Script", cursive;
@@ -115,7 +115,7 @@ input {
   margin-bottom: 3rem;
   position: absolute;
   bottom: 0;
-  left: 40%;
+  
 }
 .social-media {
   display: inline-block;
